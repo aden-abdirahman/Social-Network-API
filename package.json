@@ -1,0 +1,25 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "[License](https://img.shields.io/static/v1?label=License&message=MIT&color=blueviolet&style=plastic)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aden-abdirahman/Social-Network-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aden-abdirahman/Social-Network-API/issues"
+  },
+  "homepage": "https://github.com/aden-abdirahman/Social-Network-API#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.10"
+  }
+}
