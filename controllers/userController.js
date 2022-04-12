@@ -59,7 +59,7 @@ const userControls = {
       // adding a friend by id
     addFriend(req, res) {
         User.findOneAndUpdate(
-        { _id: params.userId },
+        { _id: req.params.userId },
         { $addToSet: { friends: req.params.friendId } },
         { new: true, runValidators: true }
         )
